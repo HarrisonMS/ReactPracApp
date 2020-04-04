@@ -1,11 +1,11 @@
 .App {
-
+  background-color: #b4b4b4;
+  height: 100vh;
   text-align: center;
 }
 
-
 .App-header {
-  background-color: #282c34;
+  background-color: #2c2834;
   height: 80px;
   display: flex;
   flex-direction: column;
@@ -14,8 +14,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .myInfo {
+  margin: 5%;
+  padding: 30px ;
+  background-color: rgb(0, 0, 0);
+  color: yellow;
   align-content: center;
   border: 1px solid red;
   width: 25%;
